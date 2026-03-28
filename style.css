@@ -154,8 +154,43 @@ button {
   padding: 0 3.125%;
 }
 
+.action {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 120px 12.5%;
+}
+
 .action-container-2 {
+  align-items: center;
   background-color: #3882f6;
+  border-radius: 8px;
+  display: flex;
+  height: 120px;
+  justify-content: space-between;
+  padding: 48px 12.5%;
+  width: 1440px;
+}
+
+.action-text {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.action-main {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.action-sub {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.action button {
+  border-color: #ffffff;
 }
 
 .footer {
