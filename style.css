@@ -194,5 +194,11 @@ button {
 }
 
 .footer {
+  align-items: center;
   background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  padding: 48px;
 }
